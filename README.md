@@ -4,7 +4,7 @@
 
     pip install -r requirements.txt
 
-## Install
+## Install
 
     git clone https://github.com/alicanyuksel/twitter-intent-generator.git
 
@@ -25,12 +25,9 @@ You need 3 args to run:
 
 You must prepare a **TXT** file which will contain your tweets inserted between **```<tweet></tweet>```** tags
 
-
     <tweet>This is a tweet!</tweet>
 
-
 **or**
-
 
     <tweet>
     This is a tweet!
