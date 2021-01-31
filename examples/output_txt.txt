@@ -1,0 +1,4 @@
+https://twitter.com/intent/tweet?text=This+is+a+tweet%21+%23intentgenerator+%23twitter
+
+https://twitter.com/intent/tweet?text=+This+is+also+a+tweet%21%0A+%23intentgenerator+%23twitter%0A+
+
