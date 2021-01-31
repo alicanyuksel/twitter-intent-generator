@@ -48,16 +48,20 @@ def create_new_pdf(data, output_pdf, output_txt):
 
     fl_output = open(output_txt, "w+", encoding="utf-8")
 
+    counter = 1
     for match in data:
         url, text = convert_tweet_to_url(match.group(1))
+        text_with_number = f"{counter}. {text}"
 
         # write on pdf
-        pdf.write(5, txt=text, link=url)
+        pdf.write(5, txt=text_with_number, link=url)
         pdf.write(5, txt="\n\n")
 
         # write on txt file
         fl_output.write(url)
         fl_output.write("\n\n")
+
+        counter += 1
 
     # output
     pdf.output(output_pdf)
